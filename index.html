@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>2lsTIX UKUKHANYA NKUNYE</title>
+        <Link rel="stylesheet" href="styles.css"/>    
+        <script src="script.js"></script>
+    </head>
+    <body>
+
+        <h1>2stix app</h1>
+         <div id="header">
+            <img src="images/rainbow.jpg" alt="Rainbow image">
+         </div>   
+                <h2>2stix ukukhanya kunye</h2>
+    <form>
+        <div class="services">
+            <h2>We give solution to your problem
+            <h3>We offer this type of services</h3>
+            
+            <p id="paragraph 1">2stix kar vas</p><img src="images/quantiry.jpg" alt="quantity" width="200" height="200"><button>Click</button><img src="images/fortune.jpg" alt="fortune" width="200" height="200">
+            
+            <label for="interior">Once washed, twice shine</label>
+            <ul style="border-color: rgb(165, 40, 177); border-style: italic; border-width: 2px;">
+                <li>interior only service price R50</li>
+                <li>full house service R180</li>
+                <li>scratches and small dents *POA</li>
+                <li>exterior only service R130</li>
+                <li>body polish only R100</li>
+
+           </ul>
+            <p>Fast food</p>
+            <p>Salon and barbershop</p>
+            <p>Fruit n veg</p>
+            <p>Supermarket</p>
+            <p>Internet cafe</p>
+            <p>Clothing store</p>
+            <p>Bakery</p>
+            <p>Laundry</p>  
+        </div>
+        <h2>Contact Us</h2>
+        <label>
+            <label for="name">tel:(065)5631846</label>
+            <input type="text" id="(065563184)" name="tel" required>
+            
+            <label for="email">2stix6stolo@gmail.com</label>
+            <input type="email" id="2stix6stolo@gmail.com" name="2stix6stolo@gmail.com" required>
+            <label for="message">we are at your service 24/7</label>
+            <textarea id="message" name="we are at your service" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </label>
+    </form>
+    <script>
+        document.querySelector('button').addEventListener('click', function(event) {
+            event.preventDefault();
+            alert('Thank you for your submission!');
+        });
+        document.getElementById('paragraph1').innerHTML = '2stix kar vas';
+
+    </script>
+    </body>

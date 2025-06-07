@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>2stix app</title>
+        <link rel="stylesheet" href="styles.css"/>
+        <meta charset="UTF-8"/>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>2stix ukukhanya kunye</h1>
+        <h2>we give solution to your problems</h2>
+    
+        <h3>we offer this type of services</h3>
+        <button>click</button>
+        <p>2stix kar vas</p>
+        <label for="interior">once washed,twice shine</label>
+            <ol>interior only service price R50</ol>
+            <ol>full house service R180</ol>
+            <ol>sratches and small dents *POA</ol>
+            <ol>exterior only service R130</ol>
+            <ol>body polish only R100</ol>
+        <img src="images/quantiry.jpg" alt="quantity" width="500" height="100"/>
+        <p>fast food</p>
+        <p>solon and barbershop</p>
+        <p>fruit n veg</p>
+        <p>supermarket</p>
+        <p>internet cafe</p>
+        <P>clothing store</P>
+        <p>bakery</p>
+        <p>laundry</p>
+        
+            <h2>Contact Us</h2>
+        
+            <label>
+                <label for="name">2stix:</label>
+                <input type="text" id="2stix" name="2stix" required>
+                
+                <label for="email">2stix6stolo@gmail.com:</label>
+                <input type="email" id="2stix6stolo" name="2stix6stolo" required>
+                
+                <label for="message">we are at your service 24/7:</label>
+                <textarea id="message" name="we are at your service" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </label>
+    </body>   
+</html>
+
